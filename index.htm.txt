@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plataforma Educativa - Lúpus Eritematoso Sistêmico</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Plataforma Educativa - Lúpus Eritematoso Sistêmico</h1>
+    <p>Informações confiáveis e acessíveis sobre o Lúpus no contexto do SUS</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="fisiologia.html">Fisiologia Glomerular</a>
+    <a href="nefrite.html">Nefrite e Rash Cutâneo</a>
+    <a href="interacoes.html">Interações com Filariose</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Sobre o Lúpus Eritematoso Sistêmico (LES)</h2>
+      <p>O Lúpus Eritematoso Sistêmico (LES) é uma doença autoimune crônica, na qual o sistema imunológico, que normalmente protege o organismo, passa a atacar tecidos saudáveis. Ele pode afetar órgãos vitais como rins, pele, coração, pulmões e cérebro.</p>
+      <p>Por se tratar de uma doença multifacetada, o diagnóstico precoce e o acesso ao tratamento adequado são fundamentais para reduzir complicações e melhorar a qualidade de vida das pessoas acometidas, especialmente aquelas em situação de vulnerabilidade social.</p>
+    </section>
+
+    <section>
+      <h2>Prevenção e Educação em Saúde</h2>
+      <p>Ainda que o LES não possa ser completamente prevenido, é possível <strong>reduzir as crises e complicações</strong> com medidas de autocuidado e acompanhamento contínuo pelo Sistema Único de Saúde (SUS). A educação em saúde tem papel central na capacitação de pacientes e profissionais para o manejo adequado da doença.</p>
+
+      <ul>
+        <li><strong>Evitar exposição solar excessiva:</strong> o uso diário de protetor solar ajuda a prevenir reações cutâneas e exacerbações do lúpus.</li>
+        <li><strong>Manter adesão ao tratamento:</strong> seguir corretamente as orientações médicas e não interromper os medicamentos por conta própria.</li>
+        <li><strong>Alimentação equilibrada:</strong> priorizar frutas, verduras e alimentos ricos em ômega-3, que têm efeito anti-inflamatório.</li>
+        <li><strong>Atenção à saúde mental:</strong> buscar apoio psicológico e social, já que o LES pode gerar ansiedade, depressão e isolamento.</li>
+        <li><strong>Evitar automedicação:</strong> alguns medicamentos podem desencadear reações autoimunes.</li>
+      </ul>
+
+      <p>Essas orientações são embasadas em estudos científicos revisados pela <a href="https://www.scielo.br" target="_blank">SciELO</a> e pela <a href="https://www.reumatologia.org.br/" target="_blank">Sociedade Brasileira de Reumatologia</a>.</p>
+    </section>
+
+    <section>
+      <h2>Grupos Vulneráveis e Equidade no SUS</h2>
+      <p>Mulheres jovens, especialmente em idade fértil, e pessoas negras ou pardas são grupos mais vulneráveis ao desenvolvimento do LES. No contexto do <strong>Sistema Único de Saúde (SUS)</strong>, é essencial garantir acesso equitativo a diagnóstico, tratamento e acompanhamento multiprofissional.</p>
+      <p>Programas de capacitação de profissionais e campanhas comunitárias são estratégias eficazes para melhorar a assistência e o acolhimento desses grupos, reduzindo desigualdades em saúde.</p>
+    </section>
+
+    <section>
+      <h2>Orientações sobre o SUS</h2>
+      <p>O Sistema Único de Saúde (SUS) garante acesso gratuito e integral à assistência para pessoas com lúpus. O tratamento inclui consultas com reumatologistas, exames de monitoramento e medicamentos fornecidos pelo Componente Especializado da Assistência Farmacêutica (CEAF).</p>
+
+      <ul>
+        <li>Encaminhamento via Unidades Básicas de Saúde (UBS);</li>
+        <li>Consultas especializadas em reumatologia e nefrologia;</li>
+        <li>Distribuição de medicamentos como hidroxicloroquina, corticosteroides e imunossupressores;</li>
+        <li>Atendimento multiprofissional: médicos, enfermeiros, psicólogos e assistentes sociais.</li>
+      </ul>
+
+      <h3>Hospitais/Centros de Referência no SUS</h3>
+      <p>Os centros abaixo são referências nacionais e regionais no cuidado de pacientes com lúpus:</p>
+
+      <ul>
+        <li><a href="https://www.ebserh.gov.br/web/hupes-ufba" target="_blank"><strong>Hospital Universitário Professor Edgard Santos (UFBA)</strong></a> — Salvador (BA)</li>
+        <li><a href="https://www.ebserh.gov.br/web/hulw-ufpb" target="_blank"><strong>Hospital Universitário Lauro Wanderley (UFPB)</strong></a> — João Pessoa (PB)</li>
+        <li><a href="https://www.ebserh.gov.br/web/huap-uff" target="_blank"><strong>Hospital Universitário Antônio Pedro (UFF)</strong></a> — Niterói (RJ)</li>
+        <li><a href="https://www.hc.fm.usp.br/" target="_blank"><strong>Hospital das Clínicas da FMUSP</strong></a> — São Paulo (SP)</li>
+        <li><a href="https://www.ebserh.gov.br/web/hucam-ufes" target="_blank"><strong>Hospital Universitário Cassiano Antônio de Moraes (UFES)</strong></a> — Vitória (ES)</li>
+      </ul>
+
+      <p>Para orientações gerais, o paciente pode entrar em contato pelo <strong>Disque Saúde 136</strong> ou procurar a <a href="https://www.gov.br/saude/pt-br" target="_blank">plataforma oficial do Ministério da Saúde</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <p>© 2025 Plataforma Educativa sobre Lúpus — Uso educacional e informativo.</p>
+      <p><strong>Criado por:</strong> Ana Paula Gomes e Lorena Gomes<br>Faculdade de Medicina Afya</p>
+    </div>
+    <img src="logo-afya.png" alt="Logotipo da Faculdade Afya">
+  </footer>
+</body>
+</html>

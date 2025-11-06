@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quem Somos - Plataforma Educativa sobre Lúpus</title>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f8fc;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: linear-gradient(135deg, #6b3fa0, #a77dd2);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem 1rem 1rem;
+      position: relative;
+    }
+    header img.ribbon {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 110px;
+      height: auto;
+    }
+    header h1 { font-size: 1.9rem; margin-bottom: 0.4rem; }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #ece4f7;
+      padding: 0.7rem 1rem;
+      gap: 0.6rem;
+    }
+    nav a {
+      color: #6b3fa0;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.4rem 0.8rem;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    nav a:hover { background-color: #dcd0f2; }
+
+    main {
+      flex: 1;
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+    }
+    section img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    section div {
+      flex: 1;
+    }
+    section h2 {
+      color: #6b3fa0;
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+    section p {
+      margin-bottom: 0.3rem;
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      background: #6b3fa0;
+      color: white;
+      padding: 1rem 2rem;
+    }
+    footer div { flex: 1; min-width: 250px; }
+    footer img.logo { width: 100px; height: auto; margin-left: 1rem; }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 1.4rem; }
+      header img.ribbon { width: 80px; }
+      nav { flex-direction: column; align-items: center; }
+      section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      section img { margin-bottom: 1rem; }
+      footer { flex-direction: column; text-align: center; }
+      footer img.logo { margin-top: 1rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="laco-lilas.png" alt="Laço lilás" class="ribbon">
+    <h1>Quem Somos</h1>
+    <p>Conheça as autoras da Plataforma Educativa sobre Lúpus Eritematoso Sistêmico</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="fisiologia.html">Fisiologia Glomerular</a>
+    <a href="nefrite.html">Nefrite e Rash Cutâneo</a>
+    <a href="interacoes.html">Interações com Filariose</a>
+    <a href="quem-somos.html">Quem Somos</a>
+  </nav>
+
+  <main>
+    <section>
+      <img src="anapaula.png" alt="Foto de Ana Paula Gomes">
+      <div>
+        <h2>Ana Paula Gomes</h2>
+        <p><strong>Analista de Sistemas</strong></p>
+        <p><strong>Estudante de Medicina - 4° semestre</strong></p>
+        <p>Faculdade de Medicina Afya</p>
+      </div>
+    </section>
+
+    <section>
+      <img src="lorena.png" alt="Foto de Lorena Gomes">
+      <div>
+        <h2>Lorena Gomes</h2>
+        <p><strong>Doula Obstétrica</strong></p>
+        <p><strong>Estudante de Medicina - 4° semestre</strong></p>
+        <p>Faculdade de Medicina Afya</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <p>© 2025 Plataforma Educativa sobre Lúpus — Uso educacional.</p>
+      <p><strong>Criado por:</strong> Ana Paula Gomes e Lorena Gomes<br>Faculdade de Medicina Afya</p>
+    </div>
+    <img src="logo-afya.png" alt="Logo Afya" class="logo">
+  </footer>
+</body>
+</html>

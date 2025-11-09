@@ -94,12 +94,20 @@
       font-weight: 600;
       column-count: 2; 
       column-gap: 20px;
-      font-family: "Just Another Hand", cursive;
+      font-size: 18pt;
       font-weight: 400;
       font-style: normal;
-      font-size: 18pt;
     }
 
+    .ana {
+      /*font para ssinaturas na página quem somos*/
+      font-family: "Mr Dafoe", cursive;
+    }
+
+    .lorena {
+      font-family: "Just Another Hand", cursive;
+      font-size: 20pt !important;
+    }
 
     /* ===== PERFIS DAS AUTORAS ===== */
     .perfil {

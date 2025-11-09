@@ -114,7 +114,7 @@
     <a href="nefrite.html">Patologia LES</a>
     <a href="interacoes.html">Interações com a Filariose</a>
     <a href="educacao-tratamento.html">Educação e Tratamento</a>
-    <a href="quem-somos.html">Quem Somos</a>
+    <a href="quem-somos.html">Quem Somos?</a>
   </nav>
 
   <main>

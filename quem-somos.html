@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quem Somos - Plataforma Educativa sobre Lúpus</title>
-
+  <title>Plataforma Educativa - Lúpus Eritematoso Sistêmico</title>
+  <link rel="stylesheet" href="style.css">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -16,21 +16,23 @@
       flex-direction: column;
       min-height: 100vh;
     }
+
     header {
       background: linear-gradient(135deg, #6b3fa0, #a77dd2);
       color: white;
       text-align: center;
-      padding: 2rem 1rem 1rem 1rem;
+      padding: 2.5rem 1rem 1.5rem 1rem;
       position: relative;
     }
     header img.ribbon {
       position: absolute;
-      top: 10px;
-      left: 10px;
-      width: 110px;
+      top: 15px;
+      left: 15px;
+      width: 140px;
       height: auto;
     }
-    header h1 { font-size: 1.9rem; margin-bottom: 0.4rem; }
+    header h1 { font-size: 2rem; margin-bottom: 0.4rem; }
+
     nav {
       display: flex;
       justify-content: center;
@@ -52,37 +54,82 @@
     main {
       flex: 1;
       padding: 2rem 1rem;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
     }
+
     section {
+      margin-bottom: 2rem;
       background: white;
       border-radius: 10px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       padding: 1.5rem;
-      margin-bottom: 2rem;
-      display: flex;
-      align-items: flex-start;
-      gap: 1.5rem;
     }
-    section img {
-      width: 130px;
-      height: 130px;
-      border-radius: 50%;
-      object-fit: cover;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
-    section div {
-      flex: 1;
-    }
+
     section h2 {
       color: #6b3fa0;
-      font-size: 1.4rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
     }
-    section p {
-      margin-bottom: 0.3rem;
+
+    section h3 {
+      color: #4b2c7a;
+      margin-top: 0.8rem;
+      margin-bottom: 0.4rem;
     }
+
+    ul { margin-left: 1.3rem; margin-bottom: 1rem; }
+    a { color: #6b3fa0; text-decoration: underline; }
+
+    a.button-link {
+      display: inline-block;
+      background: #6b3fa0;
+      color: white;
+      padding: 0.6rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    a.button-link:hover { background: #56308f; }
+
+    .assinaturas {
+      margin-top: 1rem;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    /* ===== PERFIS DAS AUTORAS ===== */
+    .perfil {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      background-color: #faf7fd;
+      border-left: 6px solid #6b3fa0;
+      border-radius: 10px;
+      padding: 1.2rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .perfil img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #cbb4e3;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .perfil div {
+      flex: 1;
+    }
+
+    .perfil h3 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      color: #6b3fa0;
+    }
+
     footer {
       display: flex;
       justify-content: space-between;
@@ -92,19 +139,26 @@
       color: white;
       padding: 1rem 2rem;
     }
+
     footer div { flex: 1; min-width: 250px; }
-    footer img.logo { width: 100px; height: auto; margin-left: 1rem; }
+    footer img.logo { width: 100px; height: auto; margin-right: 1rem; }
 
     @media (max-width: 768px) {
       header h1 { font-size: 1.4rem; }
-      header img.ribbon { width: 80px; }
+      header img.ribbon { width: 100px; }
       nav { flex-direction: column; align-items: center; }
-      section {
+
+      .perfil {
         flex-direction: column;
-        align-items: center;
         text-align: center;
       }
-      section img { margin-bottom: 1rem; }
+
+      .perfil img {
+        width: 130px;
+        height: 130px;
+        margin-bottom: 0.8rem;
+      }
+
       footer { flex-direction: column; text-align: center; }
       footer img.logo { margin-top: 1rem; }
     }
@@ -113,35 +167,49 @@
 
 <body>
   <header>
-    <img src="laco-lilas.png" alt="Laço lilás" class="ribbon">
-    <h1>Quem Somos</h1>
-    <p>Conheça as autoras da Plataforma Educativa sobre Lúpus Eritematoso Sistêmico</p>
+    <img src="laco-lilas.png" alt="Laço lilás representando o Lúpus" class="ribbon">
+    <h1>Plataforma Educativa sobre Lúpus Eritematoso Sistêmico</h1>
+    <p>Educação, prevenção e cuidado no contexto do SUS</p>
   </header>
 
   <nav>
-    <a href="index.html">Início</a>
-    <a href="fisiologia.html">Fisiologia Glomerular</a>
-    <a href="nefrite.html">Nefrite e Rash Cutâneo</a>
-    <a href="interacoes.html">Interações com Filariose</a>
-    <a href="quem-somos.html">Quem Somos</a>
+    <a href="index.html">O que é?</a>
+    <a href="nefrite.html">Patologia LES</a>
+    <a href="fisiologia.html">Fisiologia LES</a>
+    <a href="interacoes.html">Filariose LES</a>
+    <a href="educacao-tratamento.html">Educação e Tratamento</a>
+    <a href="quem-somos.html" style="background-color:#dcd0f2;">Quem Somos</a>
   </nav>
 
   <main>
-    <section>
+    <section class="texto">
+      <h2>💜 Nossa História</h2>
+      <p>Somos duas alunas do <strong>4º semestre do curso de Medicina do Centro Universitário Afya – Salvador/BA</strong>, movidas pelo desejo de unir conhecimento científico e empatia para transformar informação em cuidado.</p>
+      <p>Este projeto nasceu do nosso interesse em <strong>educar e conscientizar a população sobre o Lúpus Eritematoso Sistêmico (LES)</strong>, uma condição complexa e muitas vezes pouco compreendida. Acreditamos que o acesso a informações claras, confiáveis e acolhedoras é essencial para que pacientes, familiares e interessados possam compreender melhor a doença, reconhecer seus sinais e buscar acompanhamento adequado.</p>
+      <p>Nosso objetivo é <strong>tornar o conhecimento acessível</strong>, promovendo a disseminação de informações baseadas em evidências e contribuindo para a formação de uma comunidade mais informada e solidária.</p>
+      <p>Realizamos este trabalho com <strong>dedicação e entusiasmo</strong>, pois acreditamos que educar é uma das formas mais belas de cuidar.</p>
+
+      <div class="assinaturas">
+        <p>✍️ Ana Paula Gomes</p>
+        <p>✍️ Lorena Gomes</p>
+      </div>
+    </section>
+
+    <section class="perfil">
       <img src="anapaula.png" alt="Foto de Ana Paula Gomes">
       <div>
-        <h2>Ana Paula Gomes</h2>
-        <p><strong>Analista de Sistemas</strong></p>
+        <h3>Ana Paula Gomes</h3>
+        <p><strong>Analista de Tecnologia da Informação</strong></p>
         <p><strong>Estudante de Medicina - 4° semestre</strong></p>
         <p>Faculdade de Medicina Afya</p>
       </div>
     </section>
 
-    <section>
+    <section class="perfil">
       <img src="lorena.png" alt="Foto de Lorena Gomes">
       <div>
-        <h2>Lorena Gomes</h2>
-        <p><strong>Doula Obstétrica</strong></p>
+        <h3>Lorena Gomes</h3>
+        <p><strong>Doula e educadora perinatal</strong></p>
         <p><strong>Estudante de Medicina - 4° semestre</strong></p>
         <p>Faculdade de Medicina Afya</p>
       </div>

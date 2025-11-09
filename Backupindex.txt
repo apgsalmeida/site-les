@@ -109,17 +109,17 @@
   </header>
 
   <nav>
-    <a href="index.html">O que é?</a>
-    <a href="nefrite.html">Patologia LES</a>
+    <a href="index.html">Início</a>
     <a href="fisiologia.html">Fisiologia LES</a>
-    <a href="interacoes.html">Filariose LES</a>
+    <a href="nefrite.html">Patologia LES</a>
+    <a href="interacoes.html">Interações com a Filariose</a>
     <a href="educacao-tratamento.html">Educação e Tratamento</a>
     <a href="quem-somos.html">Quem Somos</a>
   </nav>
 
   <main>
     <section>
-      <h2>Entendendo o Lúpus Eritematoso Sitêmico(LES) </h2>
+      <h2>Entendendo o Lúpus (LES) de Forma Simples</h2>
 
       <p><strong>O Lúpus Eritematoso Sistêmico</strong>, ou apenas <strong>LES</strong>, é uma condição crônica um pouco complexa, mas fácil de entender:</p>
 
@@ -142,7 +142,46 @@
       <p><em>(Fonte: Sociedade Brasileira de Reumatologia, 2024)</em></p>
     </section>
 
+    <section>
+      <h2>Tratamento do LES no SUS</h2>
+      <p>O Sistema Único de Saúde (SUS) oferece diagnóstico, tratamento e acompanhamento multiprofissional para pessoas com Lúpus. O tratamento é orientado pelo <a href="https://www.gov.br/saude/pt-br/composicao/saes/daf/protocolos/arquivos/pcdt_lupus_eritematoso_sistemico.pdf" target="_blank"><strong>Protocolo Clínico e Diretrizes Terapêuticas (PCDT/LES)</strong></a>.</p>
+      <p>Os medicamentos disponíveis pelo SUS incluem corticoides, antimaláricos (como hidroxicloroquina), imunossupressores (azatioprina, micofenolato, ciclofosfamida) e, em casos específicos, terapias biológicas como o belimumabe.</p>
 
+      <p>Para solicitação de medicamentos do LES pelo SUS na Bahia, acesse o formulário oficial:</p>
+      <p>
+        <a class="button-link" href="https://www.saude.ba.gov.br/wp-content/uploads/2022/06/FORMULARIO-PARA-ACESSO-AOS-MEDICAMENTOS-DE-LES.pdf" target="_blank">
+          📄 Formulário para Acesso aos Medicamentos de LES - SUS/BA
+        </a>
+      </p>
+
+      <p>O acompanhamento periódico é essencial para ajustar as doses, controlar efeitos colaterais e prevenir recaídas.</p>
+    </section>
+
+    <section>
+      <h2>Prevenção e Educação em Saúde</h2>
+      <p>A prevenção de surtos e complicações do LES está relacionada ao autocuidado e à adesão ao tratamento. A educação em saúde no SUS é essencial para orientar sobre:</p>
+      <ul>
+        <li>Evitar exposição solar sem proteção (uso de protetor solar FPS ≥ 50);</li>
+        <li>Manter acompanhamento médico regular e exames laboratoriais;</li>
+        <li>Não interromper o uso de medicamentos sem orientação médica;</li>
+        <li>Adotar hábitos saudáveis de sono e alimentação;</li>
+        <li>Participar de grupos de apoio e redes de convivência para pacientes com Lúpus.</li>
+      </ul>
+      <p>Essas estratégias reduzem internações e melhoram a qualidade de vida das pessoas com LES.</p>
+    </section>
+
+    <section>
+      <h2>Orientações sobre o SUS</h2>
+      <p>O SUS garante atendimento gratuito e integral às pessoas com Lúpus. O acesso pode se dar por meio da Atenção Primária, onde o paciente é avaliado e, se necessário, encaminhado para centros especializados.</p>
+      <h3>Hospitais/Centros de Referência no SUS</h3>
+      <ul>
+        <li><a href="https://www.fm.usp.br/hc/" target="_blank">Hospital das Clínicas da FMUSP - São Paulo (SP)</a></li>
+        <li><a href="https://www.hupes.ufba.br/" target="_blank">Hospital Universitário Professor Edgard Santos (UFBA) - Salvador (BA)</a></li>
+        <li><a href="https://www.hucff.ufrj.br/" target="_blank">Hospital Universitário Clementino Fraga Filho (UFRJ) - Rio de Janeiro (RJ)</a></li>
+        <li><a href="https://www.husm.ufsm.br/" target="_blank">Hospital Universitário de Santa Maria (UFSM) - Rio Grande do Sul (RS)</a></li>
+      </ul>
+      <p>Esses centros oferecem atendimento especializado em reumatologia e imunologia, integrando diagnóstico, tratamento e apoio psicossocial aos pacientes.</p>
+    </section>
   </main>
 
   <footer>
